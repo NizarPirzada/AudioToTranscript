@@ -1,0 +1,1 @@
+﻿DELETE FROM [dbo].[Transcript] WHERE [Id] = @TranscriptId

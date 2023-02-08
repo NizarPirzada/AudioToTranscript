@@ -1,0 +1,21 @@
+@import "@/scss/app/globalVariables.scss";
+
+.cs-saving-transcript {
+    position: fixed;
+    z-index: 1;
+    height: 93vh;
+    margin-left: -12px;
+    width: 82.9vw;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+
+    .cs-saving-transcript-label {
+        margin-left: 2% !important;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 39px;
+        color: rgba(0, 0, 0, 0.8);
+        opacity: 1;
+    }
+}

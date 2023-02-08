@@ -1,0 +1,98 @@
+.cs-navdrawer {
+    position: fixed !important;
+
+    .cs-new-btn {
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        -webkit-box-orient: horizontal; 
+        -moz-box-orient: horizontal;
+        box-orient: horizontal;
+        flex-direction: row;
+    
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        box-pack: center;
+        justify-content: center;
+    
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        box-align: center;  
+        
+        align-items: center;
+        background: rgba(0, 0, 0, 0.8);
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 45px;
+        height: 64px;
+        width: 162px;
+        cursor: pointer;
+
+        .cs-new-user-icon {
+            max-width:27px;
+            left: -10%;
+            top: -5%;
+            color: $primary;
+            text-align: center;
+        }
+
+        .cs-new-transcript-icon {
+            max-width:33px;
+            left: -15%;
+            top: -3%;
+            color: $primary;
+            text-align: center;
+        }
+
+        .cs-new-btn-text {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 21px;
+            line-height: 31px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+    }
+    
+    .cs-navdrawer-menu {
+        padding: 0% !important;
+        margin: 5% 0% !important;
+        
+
+        .cs-navdrawer-menu-item-active {
+            background: linear-gradient(90deg, rgba(76, 175, 80, 0.2) 5.63%, rgba(130, 60, 83, 0.0002) 50%);
+        }
+
+        .cs-navdrawer-menu-item {
+            width: 327px;
+            height: 65.82px;
+            border-radius: 0px !important;
+            padding: 0% 10%;
+
+            .cs-navdrawer-menu-item-icon {
+                height: 27.5px;
+                margin-top: 35%;
+                margin-left: 13%;
+            }
+
+            .cs-navdrawer-menu-item-text {
+
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 21px;
+                line-height: 31px;
+                color: #FFFFFF;
+            }
+        }
+
+    }
+}
+
+
+
+
+

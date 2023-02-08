@@ -1,0 +1,1 @@
+﻿DELETE FROM [dbo].[Court] WHERE [TranscriptId] = @TranscriptId

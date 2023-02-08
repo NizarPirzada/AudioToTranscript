@@ -1,0 +1,18 @@
+@import "@/scss/app/globalVariables.scss";
+
+.cs-text-field-time-picker {
+    margin-top: 2rem !important;
+
+    .v-input__control > .v-input__slot {
+
+        input {
+            padding-top: 0px;
+            margin-top: -5px;
+        }
+    } 
+}
+
+
+.v-input__append-inner {
+    margin-top: 8px !important;
+}

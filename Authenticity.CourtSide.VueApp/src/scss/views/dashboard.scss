@@ -1,0 +1,141 @@
+@import "@/scss/app/globalVariables.scss";
+
+.cs-table-file-extension {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.cs-dashboard {
+    height: 90vh;
+    max-height: 90vh;
+}
+
+.cs-transcript-menu {
+    box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 235px;
+
+    .v-list-item__content {
+        margin-left: 3%;
+        padding: 3% 0 0 0;
+
+        .v-list-item__title {    
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 36px;
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        .v-list-item__subtitle {
+            margin-top: 5px;
+            max-width: 50%;
+            background: rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+.cs-table-dashboard>.v-data-table__wrapper{
+    background-color: $background;
+    table>tbody>tr.v-data-table__empty-wrapper :hover {  
+        cursor: default;
+    }
+}
+
+.cs-table-dashboard>.v-data-table__wrapper>table>tbody>tr :hover {  
+    cursor: pointer;
+}
+
+.cs-transcript-disabled-menu {
+    color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.cs-filter-input-text {
+    padding-right: 1rem !important;
+    .v-input__control {
+        height: 30px;
+        .v-input__slot {
+            max-height: 35px;
+            fieldset {
+                max-height: 35px;
+                border-radius: 11px;
+                color: black !important;
+                border: 1px solid rgba(0, 0, 0, 0.5) !important;
+            }
+            .v-text-field__slot {
+                max-height: 35px;
+                font-size: 1rem;
+                top: -1px !important;
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+                input[type=number] {
+                    -moz-appearance: textfield;
+                }
+                .v-label {
+                    font-size: 1rem;
+                    top: 6px !important;
+                }
+
+            }
+            .v-input__append-inner {
+                margin-top: 0.25rem !important;
+            }
+        }
+    }
+
+}
+
+.cs-select-filter-dashboard {
+    font-size: 1rem;
+    line-height: 1.875rem;
+    height: 30px;
+    background-position:
+        calc(100% - 14px) calc(0.8em + 1px),
+        calc(100% - 9px) calc(0.8em + 1px),
+        calc(100% - 1.8em) 0.1em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.7em;
+    border-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.cs-select-filter-dashboard.cs-select-file-size{
+    width: 5rem;
+    padding-left: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.cs-select-filter-dashboard.cs-select-status {
+    width: 95% !important;
+    padding-left: 1rem;
+    white-space: nowrap !important; 
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    padding-right: 3rem;
+}
+
+.v-data-footer {
+    margin-right: 0px !important;
+}
+.v-data-table-header > tr > th {
+    background-color: $background !important;
+}
+.cs-filter-row {
+    position: sticky;
+    top: 0;
+    background-color: $background !important;
+    th {
+        position: sticky;
+        top: 0;
+        background-color: $background;
+    }
+}

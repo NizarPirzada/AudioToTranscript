@@ -1,0 +1,1 @@
+﻿DELETE FROM [TranscriptFile] WHERE [TranscriptId] = @TranscriptId

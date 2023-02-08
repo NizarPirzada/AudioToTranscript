@@ -1,0 +1,209 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>Authenticity.CourtSide.VueApp</Name>
+    <RootNamespace>Authenticity.CourtSide.WebApps</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3f012c5c-431c-4627-bc49-63d2c6d5cc08</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>node_modules\@vue\cli-service\bin\vue-cli-service.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>true</StartWebBrowser>
+    <ScriptArguments>serve</ScriptArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="public\favicon.ico" />
+    <Content Include="public\index.html" />
+    <Content Include="src\assets\full-logo.png" />
+    <Content Include="src\assets\logo.png" />
+    <Content Include="src\assets\logo.svg" />
+    <Content Include="src\assets\nserio.png" />
+    <Content Include="src\components\HelloWorld.vue" />
+    <Content Include="src\components\language\SwitchLanguage.vue" />
+    <Content Include="src\components\layout\AppBar.vue" />
+    <Content Include="src\components\layout\Logo.vue" />
+    <Content Include="src\components\layout\NavigationDrawer.vue" />
+    <Content Include="src\components\pages\error\NotFoundPage.vue" />
+    <Content Include="src\components\pages\error\UnauthorizePage.vue" />
+    <Content Include="src\components\pages\home\users\UsersPage.vue" />
+    <Content Include="src\locales\en.json" />
+    <Content Include="src\locales\es.json" />
+    <Content Include="src\plugins\i18n.js" />
+    <Content Include="src\plugins\vuetify.js" />
+    <Content Include="src\router\index.js" />
+    <Content Include="src\scss\app\_custom.scss" />
+    <Content Include="src\scss\app\_embed.scss" />
+    <Content Include="src\scss\app\_fonts.scss" />
+    <Content Include="src\scss\app\_scrollbar.scss" />
+    <Content Include="src\scss\app\_transitions.scss" />
+    <Content Include="src\scss\app\index.scss" />
+    <Content Include="src\scss\components\layout\Logo.scss" />
+    <Content Include="src\scss\components\layout\NavigationDrawer.scss" />
+    <Content Include="src\scss\components\layout\AppBarr.scss" />
+    <Content Include="src\scss\components\HelloWorld.scss" />
+    <Content Include="src\scss\_variables.app.scss" />
+    <Content Include="src\scss\_variables.vuetify.scss" />
+    <Content Include="src\scss\variables.scss" />
+    <Content Include="src\services\permissionService.js" />
+    <Content Include="src\services\mock\index.js" />
+    <Content Include="src\services\apiService.js" />
+    <Content Include="src\services\authenticationService.js" />
+    <Content Include="src\services\sampleService.js" />
+    <Content Include="src\services\transcriptService.js" />
+    <Content Include="src\store\modules\language\actions.js" />
+    <Content Include="src\store\modules\language\getters.js" />
+    <Content Include="src\store\modules\language\index.js" />
+    <Content Include="src\store\modules\language\mutations.js" />
+    <Content Include="src\store\modules\language\state.js" />
+    <Content Include="src\store\modules\permission\actions.js" />
+    <Content Include="src\store\modules\permission\getters.js" />
+    <Content Include="src\store\modules\permission\index.js" />
+    <Content Include="src\store\modules\permission\mutations.js" />
+    <Content Include="src\store\modules\permission\state.js" />
+    <Content Include="src\store\modules\index.js" />
+    <Content Include="src\store\helpers.js" />
+    <Content Include="src\store\index.js" />
+    <Content Include="src\scss\app\global.scss" />
+    <Content Include="src\scss\app\globalVariables.scss" />
+    <Content Include="src\store\webStorage.js" />
+    <Content Include="src\themes\fonts\PassionOne-Black.ttf" />
+    <Content Include="src\themes\fonts\PassionOne-Bold.ttf" />
+    <Content Include="src\themes\fonts\PassionOne-Regular.ttf" />
+    <Content Include="src\themes\fonts\Poppins-Black.ttf" />
+    <Content Include="src\themes\fonts\Poppins-BlackItalic.ttf" />
+    <Content Include="src\themes\fonts\Poppins-Bold.ttf" />
+    <Content Include="src\themes\fonts\Poppins-BoldItalic.ttf" />
+    <Content Include="src\themes\fonts\Poppins-ExtraBold.ttf" />
+    <Content Include="src\themes\fonts\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="src\themes\fonts\Poppins-ExtraLight.ttf" />
+    <Content Include="src\themes\fonts\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="src\themes\fonts\Poppins-Italic.ttf" />
+    <Content Include="src\themes\fonts\Poppins-Light.ttf" />
+    <Content Include="src\themes\fonts\Poppins-LightItalic.ttf" />
+    <Content Include="src\themes\fonts\Poppins-Medium.ttf" />
+    <Content Include="src\themes\fonts\Poppins-MediumItalic.ttf" />
+    <Content Include="src\themes\fonts\Poppins-Regular.ttf" />
+    <Content Include="src\themes\fonts\Poppins-SemiBold.ttf" />
+    <Content Include="src\themes\fonts\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="src\themes\fonts\Poppins-Thin.ttf" />
+    <Content Include="src\themes\fonts\Poppins-ThinItalic.ttf" />
+    <Content Include="src\utilities\Helpers.js" />
+    <Content Include="src\components\pages\login\ForgotPassword.vue" />
+    <Content Include="src\views\Dashboard.vue" />
+    <Content Include="src\views\Home.vue" />
+    <Content Include="src\App.vue" />
+    <Content Include="src\globalSettings.js" />
+    <Content Include="src\main.js" />
+    <Content Include=".browserslistrc" />
+    <Content Include=".env.development" />
+    <Content Include=".env.production" />
+    <Content Include=".gitignore" />
+    <Content Include="README.md" />
+    <Content Include="src\components\pages\login\Login.vue" />
+    <Content Include="src\views\UsersPage.vue" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public\" />
+    <Folder Include="src\" />
+    <Folder Include="src\assets\" />
+    <Folder Include="src\components\" />
+    <Folder Include="src\components\language\" />
+    <Folder Include="src\components\layout\" />
+    <Folder Include="src\components\pages\" />
+    <Folder Include="src\components\pages\home\users\" />
+    <Folder Include="src\components\pages\login\" />
+    <Folder Include="src\components\pages\home\" />
+    <Folder Include="src\components\pages\error\" />
+    <Folder Include="src\locales\" />
+    <Folder Include="src\store\modules\authentication\" />
+    <Folder Include="src\store\modules\transcript\" />
+    <Folder Include="src\utilities\" />
+    <Folder Include="src\scss\components\layout\" />
+    <Folder Include="src\themes\" />
+    <Folder Include="src\plugins\" />
+    <Folder Include="src\router\" />
+    <Folder Include="src\scss\" />
+    <Folder Include="src\scss\app\" />
+    <Folder Include="src\scss\components\" />
+    <Folder Include="src\services\" />
+    <Folder Include="src\services\mock\" />
+    <Folder Include="src\store\" />
+    <Folder Include="src\store\modules\" />
+    <Folder Include="src\store\modules\language\" />
+    <Folder Include="src\store\modules\permission\" />
+    <Folder Include="src\themes\fonts\" />
+    <Folder Include="src\views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include=".eslintrc.js" />
+    <Compile Include="babel.config.js" />
+    <Compile Include="package-lock.json" />
+    <Compile Include="package.json" />
+    <Compile Include="postcss.config.js" />
+    <Compile Include="vue.config.js" />
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <PropertyGroup>
+    <PostBuildEvent>
+      npm run build
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

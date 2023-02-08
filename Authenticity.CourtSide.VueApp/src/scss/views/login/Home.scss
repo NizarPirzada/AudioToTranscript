@@ -1,0 +1,155 @@
+.logo {
+    margin-left: 46px;
+  }
+
+  .cs-external-language {
+    position: absolute;
+    right: 0;
+  }
+  
+  .cs-welcome-title-text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56.88px;
+    letter-spacing: 0.25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.87;
+    margin: -100px 0 15px 46px !important;
+  }
+  
+  .cs-welcome-subtitle-text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: #ffffff;
+    margin-left: 46px;
+  }
+  
+  .cs-footer-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.87;
+    padding: 0px 46px 0px 55px;
+  }
+  
+  .cs-login-card {
+    background: $background !important;
+  }
+  
+  .cs-title-card {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40.29px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.87;
+  }
+  
+  .cs-subtitle-card {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: #000000;
+  }
+  
+  .cs-subtitle-card-warning {
+    color: $error;
+  }
+
+  .cs-subtitle-card-success {
+    color: $primary;
+  }
+  
+  .cs-login-input {
+    height: 68px;
+    width: 484px;
+    padding: 2% 7%;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: #000000;
+    background: #eceef0;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .cs-login-input::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: rgba(0, 0, 0, 0.34);
+  }
+  
+  .cs-login-input::-webkit-input-placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: rgba(0, 0, 0, 0.34);
+  }
+  
+  .cs-login-input:focus {
+    outline: none;
+  }
+
+  .cs-login-input.cs-login-input-error {
+    border: 1px solid red;
+  }
+  
+  .cs-forgot-password-text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #4caf50;
+    mix-blend-mode: normal;
+    opacity: 0.87;
+    cursor: pointer;
+  }
+  
+  .cs-btn-primary {
+    width: 197.03px;
+    height: 65.66px !important;
+    background: $primary;
+    border-radius: 8px;
+      span {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #ffffff;
+        text-align: center;
+        letter-spacing: 1.54286px;
+        text-transform: uppercase;
+        mix-blend-mode: normal;
+        opacity: 0.87;
+      }
+  }

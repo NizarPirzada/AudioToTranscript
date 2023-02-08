@@ -1,0 +1,123 @@
+.cs-player {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    max-height: 100px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+.currentChunk {
+    background: #cbecfe !important;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cs-media-processing {
+    min-height: calc(100vh - 22.5rem);
+
+    .cs-media-processing-img {
+        width: 178px;
+        height: 159px;
+    }
+
+    .cs-media-processing-title {
+        margin-top: 30px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .cs-media-processing-status-container-step-3 {
+        margin: 2rem 20rem;
+
+        .cs-media-processing-text-step-3 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: start;
+        }
+    }
+
+}
+
+.cs-btn-medium {
+    width: 300px !important;
+}
+
+.cs-examination {
+    border-left: 5px solid darkgray !important;
+}
+
+.cs-examination-select {
+    padding-left: 12px;
+    width: 255px;
+    height: 30px;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    letter-spacing: -0.3px;
+    background-position:
+        calc(100% - 14px) calc(0.8em + 1px),
+        calc(100% - 9px) calc(0.8em + 1px),
+        calc(100% - 1.9em) 0.1em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.8em;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+}
+.cs-examination-alert {
+    position:fixed !important;
+    bottom: 6.7rem;
+    right: 2rem;
+    text-align: start;
+    z-index: 100 !important;
+    background: white !important;
+}
+
+.cs-examination-tag {
+    span {
+        color: $primary;
+        font-size: 0.9375rem;
+    }
+    .cs-examination-tag-img {
+        width: 13px;
+        margin-bottom: -2px;
+    }
+    margin-right: 9px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-position:
+        calc(100% - 12px) calc(0.7em + 1px),
+        calc(100% - 7px) calc(0.7em + 1px),
+        calc(100% - 1.3em) 0.1em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.4em;
+    background-repeat: no-repeat;
+    width: 5rem;
+    cursor: pointer;
+}
+
+$disable-color: rgba(128, 128, 128, 0.2);
+
+.cs-examination-tag-disabled {
+    cursor: not-allowed;
+    border-color: $disable-color;
+    span {
+        color: $disable-color;
+    }
+
+    background-image:
+        linear-gradient(45deg, transparent 50%, $disable-color 50%),
+        linear-gradient(135deg, $disable-color 50%, transparent 50%),
+        linear-gradient(to right, $disable-color, $disable-color);
+}

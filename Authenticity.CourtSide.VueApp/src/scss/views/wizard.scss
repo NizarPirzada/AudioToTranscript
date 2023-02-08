@@ -1,0 +1,432 @@
+@import "@/scss/app/globalVariables.scss";
+
+.cs-wizard {
+    overflow: hidden; max-height: 100vh; padding-top:1rem;
+}
+
+.cs-stepper {
+    background-color: $background !important;
+    box-shadow: none;
+
+    .cs-stepper-header{
+        margin-right: 3%;
+    }
+
+    .cs-stepper-items {
+        padding-left: 3%;
+        padding-right: 3%;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+    
+    .cs-step-card {
+        margin-bottom: 24px !important;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25) !important;
+        border-radius: 0px !important;
+        text-align: start;
+    }
+    .step-layout-horizontal {
+        padding-left: 20px;
+    }
+}
+
+.uploader-card-text{
+    padding-top: 0px;
+}
+.step-section-header {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+    padding-left: 24px;
+}
+.upload-section {
+    border: 1px solid #DDDFE1;
+    padding: 15px 0px;
+}
+.step-section-subheader {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+.step-section-subheader.ligth {
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 35px;
+}
+.step-text-field {
+    margin-right: 15px !important;
+    .v-input__control {
+        .v-input__slot {
+            max-height: 44px;
+            fieldset {
+                max-height: 44px;
+                border-radius: 0;
+                color: black !important;
+                background: rgba(196, 196, 196, 0.15) !important;
+                border: 1px solid rgba(0, 0, 0, 0.5) !important;
+            }
+            .v-text-field__slot {
+                max-height: 44px;
+                .v-label {
+                    top: 9px !important;
+                }
+            }
+        }
+        .v-text-field__details {
+            margin-top: -18px !important;
+            padding-bottom: 12px !important;
+        }
+    }
+}
+.step-text-field.medium {
+    width: 444px;
+    max-width: 444px;
+}
+.step-text-field.small {
+    width: 271px;
+    max-width: 271px;
+}
+
+.v-stepper__header {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.v-stepper__wrapper > div {
+    text-align: right;
+}
+
+.step-one-person-container {
+    display: contents;
+}
+
+.add-person-button {
+    max-width: 128px;
+    height: 53px !important;
+    background-color: transparent !important;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.6) !important;
+    box-sizing: border-box;
+    border-radius: 16px !important;
+    text-transform: none;
+    
+    span {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 54px;
+        display: flex;
+        align-items: center;   
+        color: rgba(0, 0, 0, 0.6);
+    }
+    
+    span.plus-icon {
+        font-size: 22px;
+    }
+}
+
+.add-additional-speaker-button {
+    margin-top: -8px;
+}
+
+.file-uploader-body {
+    height: 190px;
+    margin: 10px 30px;
+    border: 10px solid #DDDFE1;
+}
+.file-name-list {
+    height: 32px;
+    max-height: 32px;
+    .v-input__control {
+        max-height: 32px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+}
+.file-upload-progress {
+    background-color: $primary;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.file-upload-progress::-webkit-progress-bar { 
+    background-color: #eee;
+} 
+
+.file-upload-progress::-webkit-progress-value { 
+    background-color: $primary;
+}
+
+
+.transcription-container {
+    box-shadow: none !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-right: 7%;
+}
+.transcription-chunk {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25) !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: auto;
+}
+.transcription-tittle {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.transcription-divide {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.chunk-label-read-only {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.0625rem;
+    line-height: 1.625rem;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.3px;
+    max-width: 95%;
+    text-align: start;
+    margin-bottom: 0px !important;
+}
+
+.chunk-label-read-only.transcript-editor-read-only {
+    min-height: 40px;
+}
+
+.cs-speaker-name-container {
+    display: flex;
+
+    .cs-speaker-name-label {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 1.0625rem;
+        line-height: 1.625rem;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: -0.3px;
+        margin-top: 5px;
+        margin-right: 3px;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+p.chunk-label-read-only, .chunk-label-read-only.chunk-timelapse {
+    margin-right: 10px;
+}
+.transcrition-play-button {
+    background-color: $primary;
+    height: 50px !important;
+    width: 50px !important;
+    margin: 12px 0px;
+}
+
+.selector-container {
+    width: 100%;
+}
+.speaker-select {
+    padding-left: 12px;
+    width: 53%;
+    height: 30px;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    letter-spacing: -0.3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 2rem;
+    background-position:
+        calc(100% - 15px) calc(0.8em + 0px),
+        calc(100% - 10px) calc(0.8em + 0px),
+        calc(100% - 1.8em) 0.25em;
+}
+.speaker-btn-primary {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.speaker-btn-secondary {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.transcription-editor-container{
+    height: 100%;
+    width: 100%;
+}
+
+.transcription-editor{
+    resize:none;
+    outline: none;
+    padding: 10px;
+    height: auto;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.3px;
+    text-align: initial;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+  
+.cs-highlighted-word {
+    color: $primary;
+}
+
+.preview-header{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.preview-container {
+    text-align: left;
+    background-color: white;
+    padding: 20px 80px;
+    width: 660px;
+}
+.preview-container-line {
+    padding-bottom: 5px;
+    margin-top: -5px;
+    display: flex;
+}
+.preview-numbered {
+    margin-right: 10px;
+    min-width: 25px !important;
+}
+.transcript-line {
+    white-space:pre;
+    min-width: 430px !important;
+}
+.preview-footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cs-stepper-step:hover {
+    cursor: pointer;
+}
+
+hr.cs-stepper-step-completed {
+        background: $primary !important;
+}
+
+.cs-stepper-step-completed span {
+    background: $primary !important;
+}
+
+.cs-select-transcipttype {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    height: 38px;
+    background-position:
+        calc(100% - 17px) calc(0.8em + 1px),
+        calc(100% - 12px) calc(0.8em + 1px),
+        calc(100% - 1.8em) 0.1em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.8em;
+    border-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.cs-upload-button {
+    width: 224px !important;
+    box-shadow: none;
+
+    span {
+        text-transform: none !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 54px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.36px;
+        color: #FFFFFF;
+    }
+}
+.cs-transcript-editor-duration-label {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-100%);
+}
+
+.cs-person-type {
+    margin-left: 0rem;
+}
+
+.step-text-select-field {
+    width: 20vw;
+    height: 40px;
+    text-align: start;
+    margin-left: 0.7rem;
+    margin-bottom: 40px;
+
+     select {
+         background-color: white;
+         width: 375px;
+     }
+}
+
+
+.cs-select-container {
+    margin-left: 72px;
+    position: relative;
+}
+
+.cs-stepper-probres-bar {
+    margin: -15px 5rem;
+}
+.cs-select-transcript-language { 
+    border-radius: 11px !important;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    height: 38px;
+    margin-bottom: 15px;
+    text-align: start !important;
+    background-position:
+        calc(100% - 17px) calc(0.8em + 1px),
+        calc(100% - 12px) calc(0.8em + 1px),
+        calc(100% - 1.8em) 0.1em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.8em;
+    border-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.cs-stepper-action-btn {
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    margin: 20px 120px;
+
+    button {
+        margin-left: 5px;
+    }
+}
+
+.cs-stepper-action-btn-step-three {
+    bottom: 95px !important;
+}

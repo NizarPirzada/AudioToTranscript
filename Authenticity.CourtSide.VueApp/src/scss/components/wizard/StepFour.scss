@@ -1,0 +1,50 @@
+@import "@/scss/app/globalVariables.scss";
+
+.cs-step4-container {
+    padding: 0; 
+}
+
+.cs-human-transcript-container {
+    padding: 12px;
+}
+
+.cs-human-transcript {
+    text-align: left;
+    background-color: white;
+    padding: 20px 80px;
+    width: 600px;
+    height: 631px;
+    min-height: 631px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cs-btn-large {
+    width: 400px !important;
+}
+
+.cs-media-processing-img {
+    width: 178px;
+    height: 159px;
+    margin: 0 auto;
+}
+
+.cs-media-processing-title {
+    margin-top: 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 54px;
+}
+
+.cs-media-processing-text {
+    margin: 0 auto;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 27px;
+    max-width: 250px;
+}

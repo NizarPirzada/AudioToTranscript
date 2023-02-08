@@ -1,0 +1,23 @@
+C:\Users\Dell\Downloads\Files\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.csprojAssemblyReference.cache
+C:\Users\Dell\Downloads\Files\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.Resources.AudioFileResources.resources
+C:\Users\Dell\Downloads\Files\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.Resources.EmailTemplates.resources
+C:\Users\Dell\Downloads\Files\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.Resources.SqlStatement.resources
+C:\Users\Dell\Downloads\Files\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.csproj.GenerateResource.cache
+C:\Users\Dell\Downloads\Files\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.AssemblyInfoInputs.cache
+C:\Users\Dell\Downloads\Files\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.AssemblyInfo.cs
+C:\Users\Dell\Downloads\Files\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.csproj.CoreCompileInputs.cache
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.Resources.AudioFileResources.resources
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.Resources.EmailTemplates.resources
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.Resources.SqlStatement.resources
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.csproj.GenerateResource.cache
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.AssemblyInfoInputs.cache
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.AssemblyInfo.cs
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.csproj.CoreCompileInputs.cache
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\bin\Debug\netstandard2.0\Authenticity.CourtSide.Core.deps.json
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\bin\Debug\netstandard2.0\Authenticity.CourtSide.Core.dll
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\bin\Debug\netstandard2.0\Authenticity.CourtSide.Core.pdb
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\bin\Debug\netstandard2.0\NSerio.Utils.dll
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\bin\Debug\netstandard2.0\NSerio.Utils.SimpleInjector.dll
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.csproj.CopyComplete
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.dll
+D:\Projects\CourtSide\OneDrive_2021-11-10\CourtSide 1.15.2\Source\Authenticity.CourtSide.Core\obj\Debug\netstandard2.0\Authenticity.CourtSide.Core.pdb

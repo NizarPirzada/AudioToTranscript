@@ -1,0 +1,29 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "WEBSITE_RUN_FROM_PACKAGE": "1"
+  },
+  "ConnectionStrings": {
+    "Courtside.ConnectionString": "Server=qa-nserio-courtside-db.database.windows.net,1433;Initial Catalog=qa-db-courtside;Persist Security Info=False;User ID=nserio-curtside-admin;Password=Tr4nscr1ptTh1s.0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*",
+  "FTPUri": "waws-prod-dm1-101.ftp.azurewebsites.windows.net/site/wwwroot",
+  "FTPUsername": "ftp-courtside-qa\\$ftp-courtside-qa",
+  "FTPPassword": "uhc8MD1nuE2lnrTFb6dLvx5Q77Mwk6BcnRgPXgAc2bwJSfYkkjJba2a9n3Mp",
+  "FTPIsSSL": true,
+  "TranscriptionApiURL": "https://prod1.authenticity.ai/",
+  "TranscriptionApiEndpoint": "api/transcript_dcr"
+}

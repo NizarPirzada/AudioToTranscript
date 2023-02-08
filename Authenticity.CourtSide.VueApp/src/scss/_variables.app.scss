@@ -1,0 +1,42 @@
+//
+//  Color
+//      NOTE: Enable Vuetify 'customProperties'
+// 
+$primary: var(--v-primary-base);
+$secondary: var(--v-secondary-base);
+$accent: var(--v-accent-base);
+$error: var(--v-error-base);
+$info: var(--v-info-base);
+$success: var(--v-success-base);
+$warning: var(--v-warning-base);
+$scrollbar-bg: rgba(190, 190, 190, .5);
+$scrollbar-thumb: rgba(0, 0, 0, .2);
+
+$background: #F8F8F8;
+$header-text-color: rgba(0, 0, 0, 0.8);
+
+//
+//  Embed
+//
+$embed-responsive-aspect-ratios: () !default;
+$embed-responsive-aspect-ratios: map-merge(
+  (
+    "21by9": (
+      x: 21,
+      y: 9
+    ),
+    "16by9": (
+      x: 16,
+      y: 9
+    ),
+    "4by3": (
+      x: 4,
+      y: 3
+    ),
+    "1by1": (
+      x: 1,
+      y: 1
+    )
+  ),
+  $embed-responsive-aspect-ratios
+);

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Permission_GetAllObjectPermissionByUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\permission\permission_getallobjectpermissionbyuser.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Permission_GetAllRolesWithObjectPermission" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\permission\permission_getallroleswithobjectpermission.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_CreateDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_createdialog.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_CreateJob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_createjob.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_CreateMediaFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_createmediafile.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_CreatePerson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_createperson.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Role_GetAllRoles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\role\role_getallroles.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_CreateWithName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_createwithname.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_GetAllByUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_getallbyuser.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_GetAllDialogsByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_getalldialogsbytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_GetAllFilesByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_getallfilesbytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_GetAllPersonsByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_getallpersonsbytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_GetBatchOfJobsByStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_getbatchofjobsbystatus.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_GetTranscriptById" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_gettranscriptbyid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_UpdateJob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_updatejob.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_UpdatePerson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_updateperson.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_UpdateTranscriptBasicInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_updatetranscriptbasicinfo.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_UpdateTranscriptText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_updatetranscripttext.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_CreateUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_createuser.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_CreateUserLoginHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_createuserloginhistory.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_CreateUserRole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_createuserrole.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_EditUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_edituser.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_EditUserRole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_edituserrole.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_GetAllUsers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_getallusers.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_GetUserByEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_getuserbyemail.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_GetUserByEmailActivationId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_getuserbyemailactivationid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_GetUserById" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_getuserbyid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_GetUserLoginHistoryByUserId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_getuserloginhistorybyuserid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_UpdatePassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_updatepassword.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_UpdateStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_updatestatus.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_UpdateAllSpeakers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_updateallspeakers.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_UpdateDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_updatedialog.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_DeleteDuplicatedFiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_deleteduplicatedfiles.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FileFormat_GetFormatById" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\fileformats\fileformat_getformatbyid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Court_Create" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\court_create.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Court_GetById" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\court_getbyid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Court_Update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\court_update.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Court_GetByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\court_getbytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PersonInformation_Create" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\personinformation_create.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PersonInformation_Update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\personinformation_update.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_GetPersonById" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_getpersonbyid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PersonInformation_Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\personinformation_delete.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_DeletePerson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_deleteperson.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_CancelJobsInProgress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_canceljobsinprogress.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_GetActiveJobByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_getactivejobbytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FileProvider_CreateFileProvider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\settings\fileprovider_createfileprovider.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FileProvider_GetAllFileProviders" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\settings\fileprovider_getallfileproviders.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FileProvider_GetCurrentFileProvider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\settings\fileprovider_getcurrentfileprovider.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FileProvider_UpdateFileProvider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\settings\fileprovider_updatefileprovider.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FileProvider_GetFileProviderById" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\settings\fileprovider_getfileproviderbyid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_DeleteDialogsByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_deletedialogsbytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Court_DeleteByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\court_deletebytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_delete.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_DeleteAllJobsByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_deletealljobsbytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_DeleteAllPeopleByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_deleteallpeoplebytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_DeleteFilesByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_deletefilesbytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_SaveExamination" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_saveexamination.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_DeleteUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_deleteuser.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="RecordingInfo_Create" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\recordinginfo_create.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="RecordingInfo_Update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\recordinginfo_update.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="RecordingInfo_GetById" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\recordinginfo_getbyid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="RecordingInfo_GetByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\recordinginfo_getbytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FileFormat_GetByFormatNameAndType" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\fileformats\fileformat_getbyformatnameandtype.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="RecordingInfo_DeleteByTranscriptId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\recordinginfo_deletebytranscriptid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_UpdateMassiveExaminationTag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_updatemassiveexaminationtag.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_CheckUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_checkuser.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_SetTemporalPassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_settemporalpassword.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="User_CheckTemporalPassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\user\user_checktemporalpassword.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_GetAllFilesByUserId" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_getallfilesbyuserid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_LockById" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_lockbyid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_UpdateSingleExamination" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_updatesingleexamination.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_UpdateSingleExaminationTag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_updatesingleexaminationtag.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Transcript_GetAllDialogsByTranscriptIdAndPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\transcript_getalldialogsbytranscriptidandpage.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Language_GetById" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\language_getbyid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Language_GetByType" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\transcript\language_getbytype.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="TranscriptionEngine_GetAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\settings\transcriptionengine_getall.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="TranscriptionEngine_GetById" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sqlstatement\settings\transcriptionengine_getbyid.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+</root>

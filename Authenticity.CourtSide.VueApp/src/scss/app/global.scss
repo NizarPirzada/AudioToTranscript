@@ -1,0 +1,192 @@
+@import "@/scss/app/globalVariables.scss";
+
+@font-face {
+    font-family: 'PassionOne';
+    src: url("themes/fonts/PassionOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("themes/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("themes/fonts/Rubik-Regular.ttf") format("truetype");
+}
+
+#app {
+    font-family: $app-font-family;
+    background: $background;
+}
+
+.cs-btn {
+    width: 135px !important;
+    height: 46px !important;
+    margin-right: 15px;
+    
+    span {
+        border-radius: 5px !important;
+        text-transform: none !important;
+        font-family: Poppins !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+}
+
+.cs-error-message {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: #FF0404;
+}
+
+.cs-table-title {
+    margin-left: 2% !important;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: rgba(0, 0, 0, 0.8);
+    height: 5vh;
+}
+
+.cs-table {
+    margin-left: 2% !important;
+    max-width: 92% !important;
+
+    .v-data-table-header {
+        background-color: $background !important;
+    }
+
+    .elevation-1.v-data-table--has-bottom {
+        box-shadow: none !important;
+    }
+
+    .v-data-table__wrapper > table {
+        border-spacing: 0 20px !important;
+        background-color: $background !important;
+
+        thead > tr > th {
+            border-bottom: none !important;
+            height: auto !important;
+            font-family: Poppins !important;
+            font-style: normal !important;
+            font-weight: 500 !important;
+            font-size: 15px !important;
+            line-height: 22px !important;
+            color: rgba(0, 0, 0, 0.8) !important;
+        }
+        
+        tbody > tr {
+            height: auto !important;
+            background: #FFFFFF !important;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15) !important;
+            border-radius: 10px !important;
+
+            td {
+                height: 70px !important;
+                background: #ffffff;
+                font-family: Poppins !important;
+                font-style: normal !important;
+                font-weight: 500 !important;
+                font-size: 17px !important;
+                line-height: 25px !important;
+                color: rgba(0, 0, 0, 0.8) !important;
+                opacity: 0.9 !important;
+
+                .cs-table-chip {
+                    display: flex;
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    -webkit-box-orient: horizontal; 
+                    -moz-box-orient: horizontal;
+                    box-orient: horizontal;
+                    flex-direction: row;
+                
+                    -webkit-box-pack: center;
+                    -moz-box-pack: center;
+                    box-pack: center;
+                    justify-content: center;
+                
+                    -webkit-box-align: center;
+                    -moz-box-align: center;
+                    box-align: center;  
+                    
+                    align-items: center;
+                    
+                    width: 61.97px;
+                    height: 46px;
+                    background-color: $primary;
+                    border-radius: 5px;
+                }
+            }
+
+            td:first-child { border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+            td:last-child { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+        }
+    }
+
+    .v-data-footer {
+        background-color: $background !important;
+        border-top: none !important;
+    }
+}
+
+.cs-select {
+    margin: 0;
+    padding-top: 0px;
+    outline: none;    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 22px;
+    width: 335px;
+    height: 44px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 11px;
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-position:
+        calc(100% - 22px) calc(0.8em + 1px),
+        calc(100% - 17px) calc(0.8em + 1px),
+        calc(100% - 1.9em) 0.1em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}
+.cs-select.light {
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.cs-text-field {
+    .v-input__control > .v-input__slot > fieldset {
+        max-height: 44px;
+        border-radius: 0;
+        color: black !important;
+        background: rgba(196, 196, 196, 0.15) !important;
+        border: 1px solid rgba(0, 0, 0, 0.5) !important;
+    }
+}

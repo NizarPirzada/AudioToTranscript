@@ -1,0 +1,40 @@
+/*
+    SAMPLE:
+
+    <div class="embed-responsive embed-responsive-16by9">
+        <video>
+            <source src="/FileUrl" type="video/mp4" />
+        </video>
+    </div>
+
+*/
+.embed-responsive {
+    position: relative;
+    width: 100%;
+
+    &::before {
+        display: block;
+        content: "";
+    }
+
+    .embed-responsive-item,
+    iframe,
+    embed,
+    object,
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+@each $key, $ratio in $embed-responsive-aspect-ratios {
+    .embed-responsive-#{$key} {
+        &::before {
+            padding-top: percentage(map-get($ratio, y) / map-get($ratio, x));
+        }
+    }
+}

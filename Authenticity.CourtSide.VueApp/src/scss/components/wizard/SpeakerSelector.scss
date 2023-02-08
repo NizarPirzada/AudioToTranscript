@@ -1,0 +1,22 @@
+@import "@/scss/app/globalVariables.scss";
+
+.cs-new-speaker-dialog {
+    .cs-new-speaker-dialog-title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: $header-text-color;
+    }
+
+    .cs-new-speaker-dialog-text-field 
+    > .v-input__control
+    > .v-input__slot
+    > fieldset {
+        border-radius: 0;
+        color: black !important;
+        background: rgba(196, 196, 196, 0.15) !important;
+        border: 1px solid rgba(0, 0, 0, 0.5) !important;
+    }
+}

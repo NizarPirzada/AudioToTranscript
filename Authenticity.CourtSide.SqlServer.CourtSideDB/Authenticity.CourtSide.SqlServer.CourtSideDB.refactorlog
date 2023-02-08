@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f2869778-8698-4303-846a-7f56ab83bdbb" ChangeDateTime="12/23/2020 22:40:38">
+    <Property Name="ElementName" Value="[dbo].[CK_Object_Permission_Column]" />
+    <Property Name="ElementType" Value="SqlCheckConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Object_Permission]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[CK_Object_Permission_Object]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8125ce13-5dff-4300-80c3-88b1c1274b3b" ChangeDateTime="12/23/2020 22:41:13">
+    <Property Name="ElementName" Value="[dbo].[FK_Object_Permission_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Object_Permission]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Object_Permission_ToObject]" />
+  </Operation>
+</Operations>

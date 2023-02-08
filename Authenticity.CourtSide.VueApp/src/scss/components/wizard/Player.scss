@@ -1,0 +1,74 @@
+@import "@/scss/app/globalVariables.scss";
+.cs-player-container {
+  max-height: 100px;
+  width: calc(100vw - 327px);
+  background: #ffffff;
+
+  .v-chip.v-size--default {
+    border-radius: 50%;
+    height: 60px !important;
+    width: 60px !important;
+    .v-chip__content {
+      font-weight: normal;
+    }
+  }
+
+  .cs-audioName {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+    color: #121b25;
+  }
+
+  .cs-audioDate {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    color: #596675;
+  }
+
+  .plyr {
+    --plyr-color-main: black;
+    --plyr-range-track-height: 2px;
+    --plyr-range-thumb-height: 15px;
+  }
+
+  .plyr__controls {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .plyr__progress input::-webkit-slider-thumb {
+     -webkit-appearance: none !important;
+      background-color: #000000 !important;
+      border: none;
+      height: 50px !important;
+      width: 2px !important;
+      margin-top: -25px !important;
+      border-radius: 0% !important;
+      z-index: 1000;
+  }
+  
+  input[type=range]::-moz-range-thumb {
+      -moz-appearance: none !important;
+      background-color: #000000 !important;
+      border: none;
+      height: 50px !important;
+      width: 2px !important;
+      margin-top: -25px !important;
+      border-radius: 0% !important;
+      z-index: 1000;
+      
+  }
+
+  .cs-player-separator {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: lightgray;
+  }
+
+  .plyr__time {
+    width: 35px !important;
+  }
+}

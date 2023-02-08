@@ -1,0 +1,19 @@
+.cs-progress-dialog {
+    overflow-x: hidden;
+
+    .cs-progress-dialog-text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .cs-progress-dialog-text.title {
+        line-height: 36px;
+        font-size: 24px !important;
+    }
+
+    .cs-progress-dialog-text.content {
+        font-size: 16px !important;
+    }
+}

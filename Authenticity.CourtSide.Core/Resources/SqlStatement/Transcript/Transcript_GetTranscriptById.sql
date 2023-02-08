@@ -1,0 +1,35 @@
+﻿SELECT 
+    T.Id, 
+    T.[Name], 
+    T.MediaFileSize,
+    T.[Status],
+    T.[Step],
+    T.TranscriptDateTime AS RecordDate,
+    T.CaseNumber,
+    T.JudgeName,
+    T.JudgeTitle,
+    T.TranscriptType,
+    T.DeptNumber, 
+    T.Locked,
+    T.ApiLanguageId,
+    T.[HumanTranscriptionStatus],
+    T.CreatedBy,
+    T.CreatedOn,
+    T.LastModifiedBy,
+    T.LastModifiedOn,
+    C.Id AS CourtId,
+    C.[Name],
+    C.[Address],
+    C.[City],
+    C.[State],
+    C.[Zipcode],
+    TRI.[Id] AS TranscriptRecordingInfoId,
+    TRI.[VenueCompany],
+    TRI.[StreetAddress],
+    TRI.[City],
+    TRI.[State],
+    TRI.[Zipcode]
+FROM [dbo].[Transcript] AS T WITH(NOLOCK)
+LEFT JOIN [dbo].[Court] AS C WITH(NOLOCK) ON C.TranscriptId = T.Id 
+LEFT JOIN [dbo].[TranscriptRecordingInfo] AS TRI WITH(NOLOCK) ON TRI.TranscriptId = T.Id
+WHERE T.Id =@TranscriptId;

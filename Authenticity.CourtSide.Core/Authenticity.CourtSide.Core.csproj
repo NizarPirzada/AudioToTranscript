@@ -1,0 +1,236 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Authenticity.CourtSide.Core</AssemblyName>
+    <RootNamespace>Authenticity.CourtSide.Core</RootNamespace>
+    <UserSecretsId>e9644fc9-5236-4576-8f2f-3f7b1a6f5150</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\SqlStatement\Authentication\**" />
+    <EmbeddedResource Remove="Resources\SqlStatement\Authentication\**" />
+    <None Remove="Resources\SqlStatement\Authentication\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\RolObjectPermission.cs" />
+    <Compile Remove="Repositories\Query\IAuthenticationQueryRepository.cs" />
+    <Compile Remove="Repositories\Query\Implementation\AuthenticationQueryRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\SqlStatement\FileFormats\FileFormat_GetByFormatNameAndType.sql" />
+    <None Remove="Resources\SqlStatement\FileFormats\FileFormat_GetFormatById.sql" />
+    <None Remove="Resources\SqlStatement\Permission\Permission_GetAllObjectPermissionByUser.sql" />
+    <None Remove="Resources\SqlStatement\Permission\Permission_GetAllRolesWithObjectPermission.sql" />
+    <None Remove="Resources\SqlStatement\Permission\User_GetAllObjectPermission.sql" />
+    <None Remove="Resources\SqlStatement\Settings\FileProvider_CreateFileProvider.sql" />
+    <None Remove="Resources\SqlStatement\Settings\FileProvider_GetAllFileProviders.sql" />
+    <None Remove="Resources\SqlStatement\Settings\FileProvider_GetCurrentFileProvider.sql" />
+    <None Remove="Resources\SqlStatement\Settings\FileProvider_GetFileProviderById.sql" />
+    <None Remove="Resources\SqlStatement\Settings\FileProvider_UpdateFileProvider.sql" />
+    <None Remove="Resources\SqlStatement\Settings\TranscriptionEngine_GetAll.sql" />
+    <None Remove="Resources\SqlStatement\Settings\TranscriptionEngine_GetById.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Court_DeleteByTranscriptId.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Court_GetById.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Court_GetByTranscriptId.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Court_Update.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Language_GetById.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Language_GetByType.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\PersonInformation_Delete.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\PersonInformation_Update.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\RecordingInfo_DeleteByTranscriptId.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\RecordingInfo_GetById.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\RecordingInfo_GetByTranscriptId.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\RecordingInfo_Update.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_CancelJobsInProgress.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_CheckUser.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_CreateDialog.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_CreateJob.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_CreateMediaFile.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_CreatePerson.sql" />
+    <None Remove="Resources\SqlStatement\Role\Role_GetAllRoles.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_CreateWithName.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_DeletePerson.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_GetActiveJobByTranscriptId.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_Delete.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_DeleteAllPeopleByTranscriptId.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_GetAllByUser.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_GetAllDialogsByTranscriptId.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_GetAllDialogsByTranscriptIdAndPage.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_GetAllFilesByTranscriptId.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_GetAllFilesByUserId.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_GetAllPersonsByTranscriptId.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_GetBatchOfJobsByStatus.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_GetPersonById.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_GetTranscriptById.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_LockById.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_SaveExamination.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_UpdateAllSpeakers.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_UpdateDialog.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_UpdateJob.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_UpdateMassiveExaminationTag.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_UpdatePerson.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_UpdateSingleExamination.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_UpdateTranscriptBasicInfo.sql" />
+    <None Remove="Resources\SqlStatement\Transcript\Transcript_UpdateTranscriptText.sql" />
+    <None Remove="Resources\SqlStatement\User\User_CheckTemporalPassword.sql" />
+    <None Remove="Resources\SqlStatement\User\User_CreateUser.sql" />
+    <None Remove="Resources\SqlStatement\User\User_CreateUserRole.sql" />
+    <None Remove="Resources\SqlStatement\User\User_DeleteUser.sql" />
+    <None Remove="Resources\SqlStatement\User\User_EditUser.sql" />
+    <None Remove="Resources\SqlStatement\User\User_EditUserRole.sql" />
+    <None Remove="Resources\SqlStatement\User\User_GetAllUsers.sql" />
+    <None Remove="Resources\SqlStatement\User\User_GetUserByEmailActivationId.sql" />
+    <None Remove="Resources\SqlStatement\User\User_GetUserById.sql" />
+    <None Remove="Resources\SqlStatement\User\User_SetTemporalPassword.sql" />
+    <None Remove="Resources\SqlStatement\User\User_UpdatePassword.sql" />
+    <None Remove="Resources\SqlStatement\User\User_UpdateStatus.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\SqlStatement\FileFormats\FileFormat_GetByFormatNameAndType.sql" />
+    <Content Include="Resources\SqlStatement\FileFormats\FileFormat_GetFormatById.sql" />
+    <Content Include="Resources\SqlStatement\Permission\Permission_GetAllRolesWithObjectPermission.sql" />
+    <Content Include="Resources\SqlStatement\Permission\Permission_GetAllObjectPermissionByUser.sql" />
+    <Content Include="Resources\SqlStatement\Settings\TranscriptionEngine_GetAll.sql" />
+    <Content Include="Resources\SqlStatement\Settings\TranscriptionEngine_GetById.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Language_GetByType.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Language_GetById.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\RecordingInfo_GetByTranscriptId.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\RecordingInfo_GetById.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\RecordingInfo_DeleteByTranscriptId.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\RecordingInfo_Update.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\PersonInformation_Delete.sql" />
+    <Content Include="Resources\SqlStatement\Settings\FileProvider_CreateFileProvider.sql" />
+    <Content Include="Resources\SqlStatement\Settings\FileProvider_GetFileProviderById.sql" />
+    <Content Include="Resources\SqlStatement\Settings\FileProvider_UpdateFileProvider.sql" />
+    <Content Include="Resources\SqlStatement\Settings\FileProvider_GetCurrentFileProvider.sql" />
+    <Content Include="Resources\SqlStatement\Settings\FileProvider_GetAllFileProviders.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Court_DeleteByTranscriptId.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\PersonInformation_Update.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Court_GetByTranscriptId.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Court_Update.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_Delete.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_GetAllDialogsByTranscriptIdAndPage.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_GetAllDialogsByTranscriptId.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_CreateDialog.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_CreateJob.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_CreateMediaFile.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_GetActiveJobByTranscriptId.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_DeleteAllPeopleByTranscriptId.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_GetAllFilesByUserId.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_GetPersonById.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_GetBatchOfJobsByStatus.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_GetAllFilesByTranscriptId.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Court_GetById.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_UpdateMassiveExaminationTag.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_UpdateSingleExamination.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_CheckUser.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_SaveExamination.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_UpdateAllSpeakers.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_CancelJobsInProgress.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_UpdateJob.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_UpdateDialog.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_DeletePerson.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_UpdatePerson.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_CreatePerson.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_GetAllPersonsByTranscriptId.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_LockById.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_UpdateTranscriptText.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_UpdateTranscriptBasicInfo.sql" />
+    <Content Include="Resources\SqlStatement\Role\Role_GetAllRoles.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_GetTranscriptById.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_GetAllByUser.sql" />
+    <Content Include="Resources\SqlStatement\Transcript\Transcript_CreateWithName.sql" />
+    <Content Include="Resources\SqlStatement\User\User_CheckTemporalPassword.sql" />
+    <Content Include="Resources\SqlStatement\User\User_SetTemporalPassword.sql" />
+    <Content Include="Resources\SqlStatement\User\User_DeleteUser.sql" />
+    <Content Include="Resources\SqlStatement\User\User_UpdateStatus.sql" />
+    <Content Include="Resources\SqlStatement\User\User_UpdatePassword.sql" />
+    <Content Include="Resources\SqlStatement\User\User_EditUserRole.sql" />
+    <Content Include="Resources\SqlStatement\User\User_EditUser.sql" />
+    <Content Include="Resources\SqlStatement\User\User_GetUserByEmailActivationId.sql" />
+    <Content Include="Resources\SqlStatement\User\User_GetUserByEmail.sql" />
+    <Content Include="Resources\SqlStatement\User\User_GetAllUsers.sql" />
+    <Content Include="Resources\SqlStatement\User\User_GetUserById.sql" />
+    <Content Include="Resources\SqlStatement\User\User_CreateUserRole.sql" />
+    <Content Include="Resources\SqlStatement\User\User_CreateUser.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.12.1" />
+    <PackageReference Include="itext7" Version="7.1.14" />
+    <PackageReference Include="MailKit" Version="2.10.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.1.11" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.11" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.11" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.11" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.11" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.11" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.11" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.11" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.11" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="3.1.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Polly" Version="5.9.0" />
+    <PackageReference Include="SimpleInjector" Version="4.8.1" />
+    <PackageReference Include="SSH.NET" Version="2020.0.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\EmailTemplates.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EmailTemplates.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\AudioFileResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AudioFileResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\SqlStatement.Designer.cs">
+      <DependentUpon>SqlStatement.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\EmailTemplates.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EmailTemplates.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\AudioFileResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AudioFileResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\SqlStatement.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>SqlStatement.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="NSerio.Utils">
+      <HintPath>..\libs\NSerio.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="NSerio.Utils.SimpleInjector">
+      <HintPath>..\libs\NSerio.Utils.SimpleInjector.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

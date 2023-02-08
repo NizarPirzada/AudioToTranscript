@@ -1,0 +1,42 @@
+@import "@/scss/app/globalVariables.scss";
+.v-menu__content {
+  background: #ffffff;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.cs-date-menu-input-text {
+  max-width: 90%;
+  padding-right: 1rem !important;
+  .v-input__control {
+      height: 40px;
+      .v-input__slot {
+          max-height: 35px;
+          fieldset {
+              max-height: 35px;
+              border-radius: 11px;
+              color: black !important;
+              border: 1px solid rgba(0, 0, 0, 0.5) !important;
+          }
+          .v-text-field__slot {
+              max-height: 35px;
+              font-size: 1rem;
+              top: -1px !important;
+              input::-webkit-outer-spin-button,
+              input::-webkit-inner-spin-button {
+                  -webkit-appearance: none;
+                  margin: 0;
+              }
+              input[type=number] {
+                  -moz-appearance: textfield;
+              }
+              .v-label {
+                  font-size: 1rem;
+                  top: 6px !important;
+              }
+          }
+      }
+  }
+}

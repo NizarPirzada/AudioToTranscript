@@ -1,0 +1,61 @@
+.cs-user-dialog {
+    box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+
+    .cs-user-dialog-title-text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .cs-user-dialog-input {
+        border-radius: 0px;
+        padding-left: 6% !important;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        
+        .v-input__slot {
+            fieldset {
+                background: rgba(196, 196, 196, 0.15) !important;
+            }
+        }
+    }
+    
+    .v-radio > label {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .cs-select-user-transcription-engine {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        padding-left: 15px;
+        width: 31rem;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        height: 40px;
+        background-position: calc(100% - 17px) calc(0.8em + 1px),
+          calc(100% - 12px) calc(0.8em + 1px), calc(100% - 1.8em) 0.1em;
+        background-size: 5px 5px, 5px 5px, 1px 1.98em;
+        border-color: rgba(0, 0, 0, 0.4) !important;
+      }
+      
+      .cs-label-select {
+        position: absolute;
+        font-size: 13px;
+        margin-top: -7px;
+        background-color: white !important;
+        margin-left: 2.5rem;
+        color: rgba(0, 0, 0, 0.6);
+      }
+}

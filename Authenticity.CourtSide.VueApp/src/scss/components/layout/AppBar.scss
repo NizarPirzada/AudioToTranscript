@@ -1,0 +1,58 @@
+.my-custom-title {
+  color: $secondary;
+  text-shadow: 4px 3px 0 #dddddd;
+}
+
+.my-custom-subtitle {
+  color: $info;
+}
+
+.my-important-links-container {
+  max-width: 480px;
+  margin: 1.5rem auto 0 auto;
+
+  .my-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+  }
+}
+
+.transcript-header-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: $header-text-color;
+}
+
+.transcript-header-date {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: $header-text-color;
+}
+
+.cs-app-bar-menu {
+  margin-right: 5%;
+
+  .cs-user-icon {
+    max-width: 36.67px;
+    margin-right: 13.65px !important;
+  }
+
+  .cs-app-bar-user-name {
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 19px !important;
+    line-height: 28px !important;
+    color: #5E6A7A !important;
+    margin-right: 15px !important;
+  }
+  .cs-chevron-down-icon {
+    max-width: 14.97px;
+    margin-top: -4px !important;
+  }
+}
